@@ -10,6 +10,14 @@ D 32-Kb I2C CMOS Serial EEPROM
 K i2c eeprom
 $ENDCMP
 #
+$CMP HV528
+D 16-Channel Serial to Parallel Converter with High Voltage Backplane Driver and Push-Pull Outputs
+$ENDCMP
+#
+$CMP HV816
+D High Voltage, Dimmable EL Lamp Driver
+$ENDCMP
+#
 $CMP OKX-T/3-D12
 D 12V Non-Isolated Adjustable DC-DC converter
 K dc converter 12v
@@ -18,6 +26,11 @@ $ENDCMP
 $CMP RPI_40P
 D RaspberryPI 40 Pin GPIO Header
 K raspberrypi
+$ENDCMP
+#
+$CMP Si7820DN
+D 200V Vds, N-Channel MOSFET
+K N-Channel MOSFET
 $ENDCMP
 #
 #End Doc Library
