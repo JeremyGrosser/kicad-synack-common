@@ -10,11 +10,6 @@ D 32-Kb I2C CMOS Serial EEPROM
 K i2c eeprom
 $ENDCMP
 #
-$CMP Feather
-D Adafruit Feather Pinout
-F https://learn.adafruit.com/adafruit-feather/feather-specification
-$ENDCMP
-#
 $CMP HV528
 D 16-Channel Serial to Parallel Converter with High Voltage Backplane Driver and Push-Pull Outputs
 $ENDCMP
@@ -26,11 +21,6 @@ $ENDCMP
 $CMP LB1836M
 D Low-Saturation Bidirectional Motor Driver for Low-Voltage Drive
 F https://www.onsemi.com/pub/Collateral/LB1836M-D.PDF
-$ENDCMP
-#
-$CMP MCP9700-E
-D Temperature Sensor 3-Pin TO-92; -40 - +125 degC
-F https://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf
 $ENDCMP
 #
 $CMP OKX-T_3-D12
@@ -52,6 +42,10 @@ $ENDCMP
 $CMP Si7820DN
 D 200V Vds, N-Channel MOSFET
 K N-Channel MOSFET
+$ENDCMP
+#
+$CMP TP4054
+F http://www.igotalongdomainname.com/data/uploads/tp4054-42pdf.pdf
 $ENDCMP
 #
 #End Doc Library
